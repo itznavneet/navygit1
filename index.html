@@ -65,6 +65,14 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/aRGdDy18qfY?si=7aAMW774M7XFglQT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen  title="Sample Project Demo"></iframe>
     <i>it is just a demo of html iframes</i>
 </section>
+
+<section class="additional">
+    <h2> Additional Content</h2>
+    <h4>Thalapathy Intro</h4>
+    <div><video src="Thalapathy Intro.mp4" controls autoplay loop width="270px"></video> </div>
+    <h4>Ordinary Person Song</h4> 
+    <div><audio src="Leo - Thalapathy Vijay  Anirudh Ravichander.mp3" controls ></audio> </div>
+</section>
 <hr>
 <section id="contact">
     <h2>Contact</h2>
@@ -72,14 +80,14 @@
      <!-- Contact Form -->
      <h3>Send me a message</h3>
      <form action="post">
-         <label for="name">Your Name:</label><br>
-         <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+         <div class="name"><label for="name">Your Name:</label>
+         <input type="text" id="name" name="name" placeholder="Enter your name" required></div>
          
-         <label for="email">Your Email:</label><br>
-         <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        <div class="email"> <label for="email">Your Email:</label><br>
+         <input type="email" id="email" name="email" placeholder="Enter your email" required></div>
          
-         <label for="message">Your Message:</label><br>
-         <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message" required></textarea><br><br>
+         <div class="message"><label for="message">Your Message:</label><br>
+         <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message" required></textarea></div>
          
          <button>Send Message</button>
      </form>
